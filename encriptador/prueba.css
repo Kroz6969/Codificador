@@ -1,0 +1,44 @@
+*{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f1f2f7;
+}
+
+.main{
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    padding: 0;
+}
+
+.imagen-logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+    display:inline;
+}
+
+.area-texto{
+    position: relative;
+    display: flex;
+}
+
+.botones{
+    border: 0;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+}
+
+/* Poner los botones en inline en una class separada */
